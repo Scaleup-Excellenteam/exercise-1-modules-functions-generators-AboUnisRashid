@@ -22,4 +22,14 @@ def process_file():
         print('Error while opening the file!')
 
 
-process_file()
+def main():
+    """
+    The main function that executes the program logic.
+    """
+    process_file()
+
+    return 0
+
+
+if __name__ == '__main__':
+    main()
